@@ -38,3 +38,16 @@ The script compresses the directories into a `.zip` file, logs the process, and 
 4. Make the script executable:
    ```bash
    chmod +x backup_script.sh
+5. Run the script:
+   ```bash
+   ./backup_script.sh
+6. Schedule the script using cron for automated backups.
+
+
+### Windows
+
+1. Replace the paths in `$SOURCE_DIRS` with the directories you want to back up.
+2. Set `$BACKUP_DIR`, `$LOG_FILE`, `$EMAIL`, and `$SMTP_SERVER` to your preferences.
+3. Run the script manually or set it up in Task Scheduler for automated backups:
+   ```powershell
+   \backup_script.ps1
